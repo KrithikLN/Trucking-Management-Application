@@ -1,0 +1,28 @@
+<!-- gold_border.xml -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Outer gold border -->
+    <item>
+        <shape android:shape="rectangle">
+            <stroke
+                android:width="4dp"
+                android:color="#FFD700" /> <!-- Gold color for outer stroke -->
+        </shape>
+    </item>
+    <!-- Inner black border -->
+    <item android:top="4dp" android:left="4dp" android:right="4dp" android:bottom="4dp">
+        <shape android:shape="rectangle">
+            <stroke
+                android:width="2dp"
+                android:color="#000000" /> <!-- Black color for inner stroke -->
+        </shape>
+    </item>
+    <!-- Inner white border (to create the inner border) -->
+    <item android:top="6dp" android:left="6dp" android:right="6dp" android:bottom="6dp">
+        <shape android:shape="rectangle">
+            <stroke
+                android:width="2dp"
+                android:color="#FFFFFF" /> <!-- White color for inner border -->
+        </shape>
+    </item>
+</layer-list>
+

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/gold_border"
+    tools:context=".ManagerSignUpActivity"
+    tools:ignore="ExtraText">
+
+    /
+    <TextView
+        android:id="@+id/textViewLoginAs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Manager Sign Up"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-black"/>
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewLoginAs"
+        android:layout_marginTop="16dp"
+        android:hint="Name"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/editTextPhoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextName"
+        android:layout_marginTop="18dp"
+        android:hint="Phone Number"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextPhoneNumber"
+        android:layout_marginTop="25dp"
+        android:hint="Email"
+        android:minHeight="48dp" />
+
+
+    <EditText
+        android:id="@+id/editTextGstNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextPhoneNumber"
+        android:layout_marginTop="101dp"
+        android:hint="Gst number"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/editTextpanNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextPhoneNumber"
+        android:layout_marginTop="252dp"
+        android:hint="pan number"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/editTextAadharNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextPhoneNumber"
+        android:layout_marginTop="174dp"
+        android:hint="Aadhar"
+        android:minHeight="48dp" />
+
+    <Button
+        android:id="@+id/btnUploadPhoto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextEmail"
+        android:layout_marginTop="240dp"
+        android:text="Upload Photo" />
+
+    <EditText
+        android:id="@+id/editTextNote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnUploadPhoto"
+        android:layout_marginTop="6dp"
+        android:minHeight="48dp"
+        android:text="(NOTE : registration document of your company)" />
+
+    <Button
+        android:id="@+id/btnSignIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextNote"
+        android:layout_marginTop="5dp"
+        android:text="Sign In" />
+</RelativeLayout>
